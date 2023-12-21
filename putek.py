@@ -174,7 +174,7 @@ def asha(uid):
     else:alif=''
     return alif
 #_________[ LOGIN KEY ]______>>
-CorrectUsername = 'dark'
+CorrectUsername = 'darkpogi'
 key = 'true'
 while key == 'true':
     username = input('\033[0;97m[dark]\033[1;96m•────➤\033[1;92mDARK PASSKEY \033[1;91m: \x1b[1;92m')
